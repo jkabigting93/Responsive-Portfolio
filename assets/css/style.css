@@ -52,7 +52,7 @@ h3 {
 
 /* header */
 
-#masthead {
+header {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -61,6 +61,7 @@ h3 {
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
+  top: 0;
 }
 
 #logo {
@@ -217,11 +218,19 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-
+    #main-container {
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
 
+    .auth-image {
+        width: 425px;
+    }
 }
 
 @media screen and (max-width: 640px) {
