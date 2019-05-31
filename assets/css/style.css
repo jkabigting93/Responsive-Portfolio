@@ -1,0 +1,201 @@
+body {
+    background-image: url(file:///C:/Users/thegh/Coding-Homework/Assignment1/Basic-Portfolio/assets/images/white-waves.png);
+    margin: 0 auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.TopBar {
+    background-color: white;
+    border-bottom: 2px solid lightgrey;
+}
+
+.TopBarContent {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    float: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding: 25px;
+    margin: 0;
+}
+
+.TopBarLinks {
+    position: relative;
+    top: 35px;
+    right: 0px;
+}
+
+.AboutLink {
+    float: right;
+    padding: 0 25px 0 25px;
+    margin: auto;
+    border-right: 1px solid #dddddd;
+}
+
+.PortfolioLink {
+    float: right;
+    padding: 0 25px 0 25px;
+    margin: auto;
+    border-right: 1px solid #dddddd;
+}
+
+.ContactLink {
+    float: right;
+    padding: 0 25px 0 25px;
+    margin: auto;
+}
+
+.AboutMe {
+    width: 960px;
+    border: 1px solid #dddddd;
+    background-color: white;
+    margin: 30px auto 90px auto;
+    padding-bottom: 20px;
+}
+
+.AboutMeBanner {
+    width: 900px;
+    border-bottom: 2px solid lightgrey;
+    float: left;
+    margin: 0 30px 0 30px;
+}
+
+.AboutMeTitle {
+    color: #4aaaa5;
+    background-color: white;
+    padding-left: 0;
+}
+
+.AboutMeContent {
+    width: 960px;
+    padding: 30px 30px 0 30px;
+    float: left;
+}
+
+.AboutMePic {
+    width: 200px;
+    margin-right: 30px;
+    float: left;
+}
+
+.MainContent {
+    width: 900px;
+    line-height: 30px;
+    padding-right: 0px;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    background-color: #666666;
+    color: lightgrey;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    z-index: 999;
+}
+
+.FooterText {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    z-index: 9999;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+.Instagram {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+}
+  
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #01e1ff;
+}
+
+.ContactBanner {
+    width: 900px;
+    border-bottom: 2px solid lightgrey;
+    float: left;
+    margin: 0 30px 20px 30px;
+}
+
+.ContactForm {
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+}
+
+.PortfolioImage {
+    width: 300px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.column {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.column .text {      
+    top: 50%;
+    position: absolute;
+    z-index: 99;       
+    text-align: center;
+}
+
+.text {
+    float: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding: 25px;
+    margin: 0;
+    width: 250px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #01e1ff;
+}
